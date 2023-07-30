@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centar A&A</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+        /* main - kontakt */
+        #main-kontakt{
+            margin: auto;
+            max-width: 950px;
+            text-align: center;
+        }
+        #sunset_img{
+            width: 100%;
+        }
+        #kontakti{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 35px;
+        }
+        #kontakti p{
+            font-weight: bold;
+        }
+
+        .sunset_img{
+            display: block;
+            margin: 10px;
+            overflow: auto;
+        }
+        .container{
+            position: relative;
+        }
+        .overlay {
+            z-index: 100;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div id="header">
+        <h1>CENTAR ZA DOPISNO OBRAZOVANJE A&A</h1>
+        <h3>PRIVATNI CENTAR ZA DOPISNO OBRAZOVANJE</h3>
+        <p>E-mail: info@obrazovanje-a.com | Savska cesta 32, Zagreb</p>
+    </div>
+
+    <div id="notice">
+        <div id="notice_n">
+            <h4>
+                Kao što znate, obustavili smo program opće gimnazije 2022.
+                Nažalost, ove godine ćemo prekinuti sve naše programe zbog malog upisa.
+                Ovim putem želimo zahvaliti svima koji su bili dio centra tijekom ovih godina.
+                Učenje nikada ne prestaje.
+            </h4>
+            <h4>
+                Do daljnjega ostajemo dostupni na: info@obrazovanje-a.com
+            </h4>
+        </div>
+    </div>
+    
+    <div id="navigation">
+        <nav>
+            <ul id="nav_ul">
+                <li><a href="index.html">Dom</a></li>
+                <li><a href="jezici.html">Jezici</a></li>
+                <li><a href="gim.html">Privatna Opća Gimnazija</a></li>
+                <li><a href="o_centru.html">O Centru</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+              </ul>
+        </nav>
+    
+        <div class="decorative-line"></div>
+        <p>Centar za dopisno obrazovanje A&A</p>
+        <div class="decorative-line"></div>
+    </div>
+
+    <div id="main-kontakt">
+        <h1>Kontakt</h1>
+
+        <div class="decorative-line"></div>
+
+        <div id="kontakti">
+            
+            <div>
+                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                <p>info@obrazovanje-a.com</p>
+            </div>
+            
+            <div>
+                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="10" r="3"/><path d="M12 21.7C17.3 17 20 13 20 10a8 8 0 1 0-16 0c0 3 2.7 6.9 8 11.7z"/></svg>
+                <p>Savska cesta 32, Zagreb</p>
+            </div>
+            
+            <div>
+                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="2" x2="12" y2="6"></line><line x1="12" y1="18" x2="12" y2="22"></line><line x1="4.93" y1="4.93" x2="7.76" y2="7.76"></line><line x1="16.24" y1="16.24" x2="19.07" y2="19.07"></line><line x1="2" y1="12" x2="6" y2="12"></line><line x1="18" y1="12" x2="22" y2="12"></line><line x1="4.93" y1="19.07" x2="7.76" y2="16.24"></line><line x1="16.24" y1="7.76" x2="19.07" y2="4.93"></line></svg>
+                <p>obrazovanje-a.com</p>
+            </div>
+
+        </div>
+        
+        <div class="decorative-line"></div>
+        
+        <div id="ang" class="container">
+            <img src="media/Sunset.webp" alt="Image" id="sunset_img" class="sunset_img">
+            <div class="overlay">
+                <h1>Vidimo se!</h1>
+            </div>    
+        </div>
+
+    </div>
+    
+    <div id="footer">
+        <h1 id="footer_first">CENTAR ZA DOPISNO OBRAZOVANJE A&A</h1>
+        <p id="footer_last">2017 Centar za dopisno obrazovanje A&A</p>
+    </div>
+
+</body>
+</html>

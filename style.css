@@ -1,0 +1,83 @@
+/* header */
+body{
+    font-family: 'Garamond', 'Times New Roman', Times, serif;
+    font-weight: 100;
+    padding: 0px;
+    margin: 0px;
+}
+#header{
+    text-align: center;
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 10px;
+    color: white;
+    background-color: navy;
+}
+#notice{
+    margin-right: auto;
+    color: white;
+    background-color: darkred;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 10px;
+}
+#notice_n{
+    margin: auto;
+    text-align: center;
+    width: 600px;
+    max-width: 600px;
+}
+
+/* footer */
+#footer{
+    text-align: center;
+    padding: 20px;
+    display: block;
+}
+#footer_last{
+    font-size: small;
+}
+
+/* navigation */
+nav{
+    margin: auto;
+    width: fit-content;
+    background-color: white;
+    padding: 10px 0;
+    display: block;
+}
+nav #nav_ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+nav #nav_ul li{
+    margin: 2px;
+    margin-bottom: 4px;
+}
+nav #nav_ul li a{
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: black;
+    position: relative;
+}
+nav #nav_ul li:hover{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.decorative-line {
+    margin: auto;
+    max-width: 950px;
+    height: 1px;
+    background-color: black;
+    display: block;
+    margin-bottom: 20px;
+}
+#navigation p{
+    text-align: center;
+}

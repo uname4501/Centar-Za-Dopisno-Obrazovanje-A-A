@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centar A&A</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* main - dom */
+        #main-dom{
+            margin: auto;
+            max-width: 950px;
+        }
+        .dom_img{
+            width: 650px;
+            display: block;
+            margin: 10px;
+            overflow: auto;
+        }
+        .img_r{
+            position: relative;
+            float: right;
+        }
+        .img_l{
+            position: relative;
+            float: left;
+        }
+        .socrates_img{
+            position: relative;
+            max-width: 950px;
+            display: block;
+        }
+
+        
+        .overlay {
+            z-index: 100;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+        .overlay h1{
+            background-color: white;
+        }
+        .overlay .navy-btn{
+            color: white;
+            font-weight: bolder;
+            background-color: navy;
+            padding: 12px;
+            border: none;
+            font-size: 16px;
+        }
+        .overlay .navy-btn:hover{
+            cursor: pointer; 
+            background-color: white;
+            border: 1px solid black;
+            color: black;
+
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div id="header">
+        <h1>CENTAR ZA DOPISNO OBRAZOVANJE A&A</h1>
+        <h3>PRIVATNI CENTAR ZA DOPISNO OBRAZOVANJE</h3>
+        <p>E-mail: info@obrazovanje-a.com | Savska cesta 32, Zagreb</p>
+    </div>
+
+    <div id="notice">
+        <div id="notice_n">
+            <h4>
+                Kao što znate, obustavili smo program opće gimnazije 2022.
+                Nažalost, ove godine ćemo prekinuti sve naše programe zbog malog upisa.
+                Ovim putem želimo zahvaliti svima koji su bili dio centra tijekom ovih godina.
+                Učenje nikada ne prestaje.
+            </h4>
+            <h4>
+                Do daljnjega ostajemo dostupni na: info@obrazovanje-a.com
+            </h4>
+        </div>
+    </div>
+    
+    <div id="navigation">
+        <nav>
+            <ul id="nav_ul">
+                <li><a href="index.html">Dom</a></li>
+                <li><a href="jezici.html">Jezici</a></li>
+                <li><a href="gim.html">Privatna Opća Gimnazija</a></li>
+                <li><a href="o_centru.html">O Centru</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+              </ul>
+        </nav>
+    
+        <div class="decorative-line"></div>
+        <p>Centar za dopisno obrazovanje A&A</p>
+        <div class="decorative-line"></div>
+    </div>
+
+    <div id="main-dom">
+        
+        <div id="ang" class="img_r">
+            <img src="media/ang.webp" alt="Image" class="dom_img img_r">
+            <div class="overlay">
+                <h1>Pripreme za certifikat engleskog jezika (B2 i C1)</h1>
+                <a href="jezici.html"><button class="navy-btn">Čitaj Više</button></a>
+            </div>    
+        </div>
+
+        <div id="hrv" class="img_l">
+            <img src="media/hrv.webp" alt="Image" class="dom_img img_l">
+            <div class="overlay">
+                <h1>
+                    Tečajevi hrvatskog jezika: početni do napredni
+                </h1>
+                <a href="jezici.html"><button class="navy-btn">Čitaj Više</button></a>
+            </div>   
+        </div>
+
+        <div id="rus" class="img_r">
+            <img src="media/rus.webp" alt="Image" class="dom_img img_r">
+            <div class="overlay">
+                <h1>
+                    Tečajevi ruskog jezika: početni do napredni
+                </h1>
+                <a href="jezici.html"><button class="navy-btn">Čitaj Više</button></a>
+            </div>   
+        </div>
+
+        <div id="nem" class="img_l">
+            <img src="media/nem.webp" alt="Image" class="dom_img img_l">
+            <div class="overlay">
+                <h1>
+                    Tečajevi njemačkog jezika: početni do napredni
+                </h1>
+                <a href="jezici.html"><button class="navy-btn">Čitaj Više</button></a>
+            </div>   
+        </div>
+
+        <div id="gim" class="img_r">
+            <img src="media/gim.webp" alt="Image" class="dom_img img_r">
+            <div class="overlay">
+                <h1>
+                    Program opće gimnazije
+                </h1>
+                <a href="gim.html"><button class="navy-btn">Čitaj Više</button></a>
+            </div>   
+        </div>
+
+        <div id="biz" class="img_l">
+            <img src="media/biz.webp" alt="Image" class="dom_img img_l">
+            <div class="overlay">
+                <h1>Tečajevi jezika za društva i veće grupe</h1>
+                <h1>Bilo koji jezik na bilo kojoj razini</h1>
+                <h1>prilagođen vašim potrebama i željama</h1>
+                <a href="jezici.html"><button class="navy-btn">Čitaj Više</button></a>
+            </div>   
+        </div>
+
+        <div id="socrates" class="socrates_img">
+            <img src="media/socrates.webp" alt="Image" class="socrates_img">
+            <h1>Wonder is the beginning of wisdom.</h1>
+        </div>
+
+        <div class="decorative-line"></div>
+
+    </div>
+    
+    <div id="footer">
+        <h1 id="footer_first">CENTAR ZA DOPISNO OBRAZOVANJE A&A</h1>
+        <p id="footer_last">2017 Centar za dopisno obrazovanje A&A</p>
+    </div>
+
+</body>
+</html>
